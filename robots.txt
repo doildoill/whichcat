@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://whichcat.ga/sitemap.xml
