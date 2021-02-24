@@ -179,7 +179,7 @@
 						prediction.sort((a,b) => parseFloat(b.probability) - parseFloat(a.probability));
 						console.log(prediction[0].className);
 						var resultMessege;
-			    			var resultimg = document.getElementById("output-image").innerHTML ;
+			    			var resultimg = document.getElementById("output-image");
 						switch(prediction[0].className) {
   							case "beng":
 							resultimg("beng.jpg");
