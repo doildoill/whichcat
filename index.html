@@ -221,8 +221,8 @@
 						}
 						
 			   			
-						
-						$('.result-message').html(resultimg + resultMessege);
+						document.getElementById("output-image").innerHTML = resultimg;
+						$('.result-message').html(resultMessege);
 						
                         for (let i = 0; i < maxPredictions; i++) {
                             //const classPrediction =
